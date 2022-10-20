@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   perspective: 1000px;
+  background-color: #585858;
 }
 .container {
   width: 50%;
@@ -24,7 +25,8 @@ body {
   width: 35rem;
   border-radius: 30px;
   padding: 0rem 5rem;
-  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  background-color: #190342;
+  box-shadow: 0 20px 20px rgba(245, 70, 66, 0.75), 0px 0px 50px rgba(8, 83, 156, 0.75);
 }
 
 .sneaker {
@@ -52,13 +54,14 @@ body {
 }
 
 .info h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   transition: all 0.75s ease-out;
+  color: aqua;
 }
 .info h3 {
   font-size: 1.3rem;
   padding: 2rem 0rem;
-  color: #585858;
+  color: #2b8fb4;
   font-weight: lighter;
   transition: all 0.75s ease-out;
 }
@@ -71,15 +74,15 @@ body {
   padding: 0.5rem 2rem;
   background: none;
   border: none;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px rgba(72, 2, 184, 0.75);
   border-radius: 30px;
   cursor: pointer;
   font-weight: bold;
-  color: #585858;
+  color: #2b8fb4;
 }
 button.active {
-  background: #585858;
-  color: white;
+  background: aqua;
+  color: #190342;
 }
 .purchase {
   margin-top: 5rem;
@@ -88,9 +91,9 @@ button.active {
 .purchase button {
   width: 100%;
   padding: 1rem 0rem;
-  background: #f54642;
+  background: aqua;
   border: none;
-  color: white;
+  color: #190342;
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
